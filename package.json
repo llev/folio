@@ -16,5 +16,8 @@
   "devDependencies": {
     "@sanity/cli": "^2.12.2",
     "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "@sanity/image-url": "^0.140.22"
   }
 }
