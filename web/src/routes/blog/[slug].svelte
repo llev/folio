@@ -34,6 +34,11 @@
 </script>
 
 <style>
+  div {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
   .content :global(h2) {
     font-size: 1.4em;
     font-weight: 500;
@@ -61,8 +66,8 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
 
 <div class="content">
+  <h1>{post.title}</h1>
   <BlockContent blocks={post.body} {serializers} />
 </div>

@@ -6,12 +6,9 @@
 
 <style>
 	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
+		display: grid;
+		max-width: 85vw;
+		margin: 10px auto;
 	}
 </style>
 
